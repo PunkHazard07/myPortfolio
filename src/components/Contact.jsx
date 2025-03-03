@@ -21,7 +21,7 @@ const Contact = () => {
         setLoading(true);
         
         try {
-            const response = await fetch('http://localhost:8080/api/send-email', {
+            const response = await fetch('https://portfolio-backend-s1n7.onrender.com/api/send-email', {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json'
