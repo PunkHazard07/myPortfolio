@@ -15,14 +15,14 @@ return (
         title="E-commerce Web App"
         description="A modern full-stack e-commerce platform built using React, Node.js, and MongoDB."
         image="https://res.cloudinary.com/djbtdlzrj/image/upload/v1738102888/Screenshot_2025-01-28_232113_o3john.png"
-        link="https://essence-of-style.onrender.com/"
+        link="https://creativefurniture.onrender.com"
         />
 
         <ProjectCard
         title="School Management System"
         description="A modern School Management System built using React, Node.js, and MongoDB."
         image="https://res.cloudinary.com/djbtdlzrj/image/upload/v1738102417/Screenshot_2025-01-28_231209_wmkvwt.png"
-        link="https://chizzy-kids-school.onrender.com/"
+        link=""
         />
     </div>
     </div>

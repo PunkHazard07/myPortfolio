@@ -8,7 +8,7 @@ return (
         <a href="https://github.com/PunkHazard07" target="_blank" rel="noopener noreferrer" className="hover:text-gray-400">
         <FaGithub size={24} />
         </a>
-        <p>&copy; {new Date().getFullYear()} MyPortfolio. All rights reserved.</p>
+        <p>&copy; {new Date().getFullYear()}. All rights reserved.</p>
     </div>
     </footer>
 );

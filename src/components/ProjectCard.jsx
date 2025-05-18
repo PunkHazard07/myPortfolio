@@ -1,28 +1,50 @@
 import React from "react";
 
-const ProjectCard = ({ title, description, image, link }) => {
-return (
-    <div className="max-w-sm bg-white shadow-lg rounded-xl overflow-hidden transform transition duration-300 hover:scale-105">
-      {/* Image */}
-    <img src={image} alt={title} className="w-full h-48 object-cover" />
+const ProjectCard = ({ title, description, image, link, tags = [] }) => {
+  return (
+    <div className="bg-white rounded-xl overflow-hidden shadow-lg hover:shadow-xl transition-all duration-300">
+      {/* Image with overlay on hover */}
+      <div className="relative overflow-hidden group">
+        <img 
+          src={image} 
+          alt={title} 
+          className="w-full h-56 object-cover transition-transform duration-500 group-hover:scale-110" 
+        />
+        <div className="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-end">
+          <div className="p-4 w-full">
+            {/* Tags */}
+            <div className="flex flex-wrap gap-2 mb-3">
+              {tags.map((tag, index) => (
+                <span 
+                  key={index} 
+                  className="px-2 py-1 bg-blue-600/90 text-white text-xs font-medium rounded"
+                >
+                  {tag}
+                </span>
+              ))}
+            </div>
+            
+            {link && (
+              <a
+                href={link}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-block w-full text-center bg-white text-blue-600 px-4 py-2 rounded font-semibold hover:bg-blue-50 transition-colors"
+              >
+                View Project
+              </a>
+            )}
+          </div>
+        </div>
+      </div>
 
-      {/* Card Content */}
-    <div className="p-6">
-        <h3 className="text-2xl font-bold text-gray-800">{title}</h3>
-        <p className="text-gray-600 mt-3">{description}</p>
-
-        {/* Link Button */}
-        <a
-        href={link}
-        target="_blank"
-        rel="noopener noreferrer"
-        className="mt-4 inline-block bg-blue-600 text-white px-5 py-2 rounded-lg font-semibold hover:bg-blue-700 transition"
-        >
-        View Project
-        </a>
+      {/* Content */}
+      <div className="p-6">
+        <h3 className="text-xl font-bold text-gray-800 mb-2">{title}</h3>
+        <p className="text-gray-600 text-sm">{description}</p>
+      </div>
     </div>
-    </div>
-);
+  );
 };
 
 export default ProjectCard;
