@@ -76,7 +76,7 @@ const Hero = () => {
 
                 {/* Download CV Button */}
                 <a 
-                  href="https://drive.google.com/file/d/1eDlvBbi4-b6NKnSY20V12krDm9evMreP/view?usp=sharing" 
+                  href="https://drive.google.com/file/d/16kxX8uaexw50FylQ5QvOl-Kdr64LiyWy/view?usp=sharing" 
                   target="_blank" 
                   rel="noopener noreferrer"
                   className="bg-green-600 hover:bg-green-700 text-white px-6 py-3 rounded-lg font-medium shadow-lg transform hover:-translate-y-1 transition-all duration-200 flex items-center gap-2"
