@@ -22,7 +22,7 @@ return (
         title="School Management System"
         description="A modern School Management System built using React, Node.js, and MongoDB."
         image="https://res.cloudinary.com/djbtdlzrj/image/upload/v1738102417/Screenshot_2025-01-28_231209_wmkvwt.png"
-        link=""
+        link="https://chizzy-kids-school.onrender.com"
         />
     </div>
     </div>
