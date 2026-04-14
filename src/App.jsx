@@ -1,12 +1,10 @@
 import React from 'react'
-import Portofolio from './pages/Portofolio'
+import Portfolio from './pages/Portfolio'
 
 
 function App() {
   return (
-<Portofolio />
-
-  
+    <Portfolio />
   )
 }
 

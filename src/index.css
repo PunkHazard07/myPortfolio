@@ -2,13 +2,30 @@
 
 @import "tailwindcss";
 
-*{
-    font-family: Outfit;
+@layer base {
+  :root {
+    --background: 240 10% 3.9%;
+    --foreground: 0 0% 98%;
+  }
+
+  html {
+    scroll-behavior: smooth;
+    background-color: #09090b; /* zinc-950 */
+    color: #f4f4f5; /* zinc-100 */
+  }
+
+  body {
+    @apply bg-zinc-950 text-zinc-100;
+    font-family: 'Outfit', sans-serif;
+  }
 }
 
+* {
+  font-family: 'Outfit', sans-serif;
+}
 
 .prata-regular {
-    font-family: "Prata", serif;
-    font-weight: 400;
-    font-style: normal;
+  font-family: "Prata", serif;
+  font-weight: 400;
+  font-style: normal;
 }
