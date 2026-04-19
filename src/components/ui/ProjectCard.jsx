@@ -44,9 +44,14 @@ const ProjectCard = ({ title, description, image, link, tags = [] }) => {
           <h3 className="text-xl font-bold text-white group-hover:text-violet-400 transition-colors duration-300">
             {title}
           </h3>
-          <p className="text-zinc-400 text-sm leading-relaxed line-clamp-2">
+          <p className="text-zinc-400 text-sm leading-relaxed">
             {description}
           </p>
+          <div className="pt-4 border-t border-zinc-800/50 mt-4">
+            <p className="text-zinc-500 text-xs flex items-center gap-2">
+              <span>View backend on GitHub & don't forget to give a star! ⭐</span>
+            </p>
+          </div>
         </div>
       </div>
     </div>

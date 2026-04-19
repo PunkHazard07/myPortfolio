@@ -40,7 +40,7 @@ const Project = () => {
           title="E-commerce Web App"
           description="A sophisticated full-stack platform featuring seamless product discovery, secure user authentication, and an intuitive shopping experience powered by the MERN stack."
           image="https://res.cloudinary.com/djbtdlzrj/image/upload/v1738102888/Screenshot_2025-01-28_232113_o3john.png"
-          tags={["React", "Node.js", "MongoDB"]}
+          tags={["MongoDB", "Express", "React", "Node.js"]}
           link="https://creativefurniture.onrender.com"
         />
 
@@ -48,7 +48,7 @@ const Project = () => {
           title="School Management System"
           description="A comprehensive administrative dashboard for educational institutions, streamlining student records, attendance tracking, and grading systems with real-time data management."
           image="https://res.cloudinary.com/djbtdlzrj/image/upload/v1738102417/Screenshot_2025-01-28_231209_wmkvwt.png"
-          tags={["React", "Node.js", "MongoDB"]}
+          tags={["MongoDB", "Express", "React", "Node.js"]}
           link="https://chizzy-kids-school.onrender.com"
         />
       </div>

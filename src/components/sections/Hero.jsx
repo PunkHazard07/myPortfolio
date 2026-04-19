@@ -61,7 +61,7 @@ const Hero = () => {
                 </button>
 
                 <a 
-                  href="https://drive.google.com/file/d/16kxX8uaexw50FylQ5QvOl-Kdr64LiyWy/view?usp=sharing" 
+                  href="https://drive.google.com/file/d/1DYQcbrRMCMmV0FiU7F0I82H0C5DrPFeH/view?usp=sharing" 
                   target="_blank" 
                   rel="noopener noreferrer"
                   className="border border-zinc-800 hover:bg-zinc-900 text-zinc-100 px-8 py-4 rounded-xl font-semibold transition-all duration-200 flex items-center gap-2"
