@@ -29,6 +29,14 @@ const Project = () => {
 
       <div className="grid grid-cols-1 md:grid-cols-2 gap-12">
         <ProjectCard
+          title="Travel Verse"
+          description="A visually stunning travel platform designed to inspire and simplify global exploration with modern web technologies."
+          image="https://res.cloudinary.com/djbtdlzrj/image/upload/v1738102417/Screenshot_2025-01-28_231209_wmkvwt.png" 
+          tags={["React", "Tailwind CSS", "Vite"]}
+          link="https://travel-verse-neon.vercel.app/"
+        />
+
+        <ProjectCard
           title="E-commerce Web App"
           description="A modern full-stack e-commerce platform built using React, Node.js, and MongoDB."
           image="https://res.cloudinary.com/djbtdlzrj/image/upload/v1738102888/Screenshot_2025-01-28_232113_o3john.png"
