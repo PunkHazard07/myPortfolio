@@ -27,7 +27,7 @@ const Project = () => {
         </a>
       </div>
 
-      <div className="grid grid-cols-1 md:grid-cols-2 gap-12">
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
         <ProjectCard
           title="Travel Verse"
           description="A visually stunning travel platform designed to inspire and simplify global exploration with modern web technologies."
@@ -38,7 +38,7 @@ const Project = () => {
 
         <ProjectCard
           title="E-commerce Web App"
-          description="A modern full-stack e-commerce platform built using React, Node.js, and MongoDB."
+          description="A sophisticated full-stack platform featuring seamless product discovery, secure user authentication, and an intuitive shopping experience powered by the MERN stack."
           image="https://res.cloudinary.com/djbtdlzrj/image/upload/v1738102888/Screenshot_2025-01-28_232113_o3john.png"
           tags={["React", "Node.js", "MongoDB"]}
           link="https://creativefurniture.onrender.com"
@@ -46,7 +46,7 @@ const Project = () => {
 
         <ProjectCard
           title="School Management System"
-          description="A modern School Management System built using React, Node.js, and MongoDB."
+          description="A comprehensive administrative dashboard for educational institutions, streamlining student records, attendance tracking, and grading systems with real-time data management."
           image="https://res.cloudinary.com/djbtdlzrj/image/upload/v1738102417/Screenshot_2025-01-28_231209_wmkvwt.png"
           tags={["React", "Node.js", "MongoDB"]}
           link="https://chizzy-kids-school.onrender.com"
