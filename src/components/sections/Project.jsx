@@ -31,7 +31,7 @@ const Project = () => {
         <ProjectCard
           title="Travel Verse"
           description="A visually stunning travel platform designed to inspire and simplify global exploration with modern web technologies."
-          image="https://res.cloudinary.com/djbtdlzrj/image/upload/v1738102417/Screenshot_2025-01-28_231209_wmkvwt.png" 
+          image="https://res.cloudinary.com/dj52vohl0/image/upload/v1776604126/Screenshot_2026-04-19_134021_cra3uv.png" 
           tags={["React", "Tailwind CSS", "Vite"]}
           link="https://travel-verse-neon.vercel.app/"
         />
